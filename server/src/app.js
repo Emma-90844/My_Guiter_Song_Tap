@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const app = express();
 
 
-app.use(morgan('combined'));//When an end point is hit a log of what quiet a number of info prints to the console
+app.use(morgan('combined'));//When an end point is hit a log of what device hit the end point  prints to the console.
 app.use(bodyParser.json());
 app.use(cors()); //Enables any client around the world to hit the server(security risk to have it enabled)
 
