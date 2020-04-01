@@ -1,0 +1,77 @@
+1-Innitialise a repository
+2-npm i -g vue-cli
+next you can use it typing
+vue init <template-name> <Project-name>
+
+vue init webpark 
+
+3-vue list   : List all the templates we can use to build up 
+4-vue init webpark client      : client being the project name
+
+5npm run dev starts     : Startsup fornt end veu server
+
+5- Remember to have the CLIENT folder differernt from  the SERVER folder
+
+6-Create a server folder using mkdir server from my-guiter-song folder and cd into it
+
+7- npm init -f    : Innitialises the server folder by creating the package .json file into it
+
+8- @client side
+ npm install axios    :Library for handling http request from the server side
+
+9-Api.js file was used to set up a connector to the back end
+
+10-Set the server to start with running every code throught a eslint
+    error:------> ESLint couldn't find a configuration file. To set up a configuration file for this project, please run:
+
+    eslint --init
+
+    solution is to run:         eslint --init 
+    -first go to:               node_modules/eslint/bin/eslint.js --init
+
+11-
+
+12-
+
+13-
+
+14-
+
+
+15-
+
+16-
+
+17-
+
+18-
+
+
+19
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
