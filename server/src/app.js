@@ -6,7 +6,7 @@ const morgan = require('morgan');
 const app = express();
 
 
-app.use(morgan('combine'));
+app.use(morgan('combined'));//When an end point is hit a log of what quiet a number of info prints to the console
 app.use(bodyParser.json());
 app.use(cors()); //Enables any client around the world to hit the server(security risk to have it enabled)
 
@@ -16,9 +16,8 @@ app.get('/register', (req, res) => {
     });
 });
 
-
 // app.listen(process.env.PORT || 8081);
-app.listen(3000, () => {
+app.listen(8081, () => {
     console.log(``);
 });
 
